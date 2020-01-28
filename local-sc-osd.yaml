@@ -1,0 +1,21 @@
+apiVersion: "local.storage.openshift.io/v1"
+kind: "LocalVolume"
+metadata:
+  name: "local-sc-osd"
+  namespace: "local-storage"
+spec:
+  nodeSelector:
+    nodeSelectorTerms:
+    - matchExpressions:
+        - key: kubernetes.io/hostname
+          operator: In
+          values:
+          - sto-1.ocp.i3datacenter.com
+          - sto-2.ocp.i3datacenter.com
+          - sto-3.ocp.i3datacenter.com
+  storageClassDevices:
+    - storageClassName: "local-sc-osd"
+      volumeMode: Block
+      devicePaths:
+        - /dev/sdc
+
