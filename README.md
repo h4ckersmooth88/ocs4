@@ -16,6 +16,12 @@ Disk 2 : for MONs
 
 Disk 3 : for OSD
 
+This Scenario : BUILD Openshift Container Storage with Concept Baremetal..
+
+In real case sometime you can not get information about User and Password vSphere for any concern.. You can not dynamic provisioning like use storageclass ( thin ).
+
+We must create PV manually.
+
 ==============================================================================
 
  Please make sure you have 3 worker for OCS environment :
@@ -327,4 +333,9 @@ and you can also in Dashboard :
 
 ![](https://raw.githubusercontent.com/h4ckersmooth88/ocs4/master/1.PNG)
 
-Reference Official : https://access.redhat.com/documentation/en-us/red_hat_openshift_container_storage/4.2/html-single/deploying_openshift_container_storage/index
+
+
+Reference :
+
+https://access.redhat.com/documentation/en-us/red_hat_openshift_container_storage/4.2/html-single/deploying_openshift_container_storage/index
+
