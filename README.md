@@ -326,3 +326,5 @@ rook-ceph-rgw-ocs-storagecluster-cephobjectstore-a-c6b4588xqzhv   1/1
 and you can also in Dashboard :
 
 ![](https://raw.githubusercontent.com/h4ckersmooth88/ocs4/master/1.PNG)
+
+Reference Official : https://access.redhat.com/documentation/en-us/red_hat_openshift_container_storage/4.2/html-single/deploying_openshift_container_storage/index
