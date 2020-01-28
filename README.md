@@ -52,7 +52,9 @@ You must install first Local Storage in Operator
    6. Adjust the values for the **Update Channel** and **Approval Strategy** to the desired values.
    7. Click **Subscribe**.
 
-   ![2](D:\LinkedIn\openshift\2.PNG)
+   ![](https://raw.githubusercontent.com/h4ckersmooth88/ocs4/master/2.PNG)
+
+   
 
 3. Once finished, the Local Storage Operator will be listed in the **Installed Operators** section of the web console.
 
@@ -323,5 +325,4 @@ rook-ceph-rgw-ocs-storagecluster-cephobjectstore-a-c6b4588xqzhv   1/1
 
 and you can also in Dashboard :
 
-![1](D:\LinkedIn\openshift\1.PNG)
-
+![](https://raw.githubusercontent.com/h4ckersmooth88/ocs4/master/1.PNG)
