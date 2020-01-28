@@ -10,9 +10,9 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
-          - sto-1.ocp.i3datacenter.com
-          - sto-2.ocp.i3datacenter.com
-          - sto-3.ocp.i3datacenter.com
+          - sto-1.ocp.datacenter.com
+          - sto-2.ocp.datacenter.com
+          - sto-3.ocp.datacenter.com
   storageClassDevices:
     - storageClassName: "local-sc-mon"
       volumeMode: Filesystem
